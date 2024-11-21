@@ -102,7 +102,7 @@ Type **npm start** in terminal to start the application after installing the dep
 ├──package.json
 └──tailwind.config.js
 ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-Live Link :https://resume-builder-delta-nine.vercel.app/
+Live Link :https://resume-builder-fx477nk8i-theharshalls-projects.vercel.app/
 
 
 GitHub Link : https://github.com/theharshall/Resume-Builder
