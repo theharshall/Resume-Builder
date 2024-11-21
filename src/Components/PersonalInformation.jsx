@@ -177,24 +177,6 @@ function PersonalInformation(props) {
           )}
         </FormControl>
 
-
-
-          {/* Objective textarea */}
-          <FormControl style={{ width: "100%", marginTop: "2vh" }}>
-            <label>OBJECTIVE</label>
-            <textarea
-              style={{ border: "1px solid gray",borderRadius: "5px",width: '100%',textAlign: 'left', paddingLeft: '20px',  paddingTop: '10px',  paddingBottom: '10px',resize: 'vertical', fontSize:'18px'}}
-              {...register(fieldCd.Objective, { required: true })}
-              defaultValue={
-                props.contact ? props.contact[fieldCd.Objective] : ""
-              }
-              error={errors[fieldCd.Objective] ? true : false}
-            ></textarea>
-            {errors[fieldCd.Objective] && (
-              <span className="text-red-500">Objective is required</span>
-            )}
-          </FormControl>
-
           {/* Details Submit button */}
           <div style={{ marginTop: "1vw"}}>
             <Button
