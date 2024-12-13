@@ -1,4 +1,4 @@
-# AlmaBetter Frontend Capstone Project
+#  Frontend Capstone Project
 
 ## Resume-Builder
 
